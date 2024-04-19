@@ -6,13 +6,28 @@
 }
 
 body{
-	background-color: #3f3f46;
+	background-color: #fecaca;
 	color: #e5e5e5;
 	font-family: "Roboto", sans-serif;
 }
 
+.sla{
+	display: flex;
+	width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: red; 
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
 .form_wrapper {
-	background: #030712;
+	background: #171717;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	width: 400px;
@@ -33,6 +48,10 @@ body{
 	gap: 20px;
 }
 
+h2{
+	margin-bottom: 20px;
+}
+
 .formulario{
 	display: flex;
 	justify-content: center;
@@ -44,6 +63,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 	gap: 5px;
 }
 
@@ -55,3 +75,23 @@ body{
 label {
     font-size: 12px;
 }
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background-image:linear-gradient(150deg, rgb(255, 0, 0) 0%, rgb(243, 56, 56) 100%); 
+    color: #fff;
+    text-decoration:none;
+    padding: 0.4em 1em;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 0.9em;
+    float: left;
+    margin-right: 5%;
+  }
+  .btn:hover { background-image: linear-gradient(150deg, rgb(243, 56, 56) 0%, rgb(255, 0, 0) 100%); color:rgb(255, 255, 255); }
+  

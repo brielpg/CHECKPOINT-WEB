@@ -33,37 +33,37 @@ const Cadastro = () => {
     return(
       <main>
         <Header/>
-        <div className="form_wrapper">
-            <div className="form_container">
-              <div className="title_container">
-                <h2>CADASTRO</h2>
-              </div>
-              <div className="formulario">
-                <div>
-                  <div className="gap">
+          <div className="form_wrapper">
+              <div className="form_container">
+                <div className="title_container">
+                  <h2>CADASTRO</h2>
+                </div>
+                <div className="formulario">
+                  <div>
+                    <div className="gap">
 
-                    <div className="inputs">
-                      <input onChange={(e) => setName(e.target.value)} type="text" name="user" placeholder="Usuário"/>
-                    </div>
+                      <div className="inputs">
+                        <input onChange={(e) => setName(e.target.value)} className="sla" type="text" name="user" placeholder="Usuário"/>
+                      </div>
 
-                    <div className="inputs">
-                      <input onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email"/>
-                    </div>
+                      <div className="inputs">
+                        <input onChange={(e) => setEmail(e.target.value)} className="sla" type="email" placeholder="Email"/>
+                      </div>
 
-                    <div className="inputs">
-                      <input onChange={(e) => setPsw(e.target.value)} type="password" name="password" placeholder="Senha"/>
-                    </div>
+                      <div className="inputs">
+                        <input onChange={(e) => setPsw(e.target.value)} className="sla" type="password" name="password" placeholder="Senha"/>
+                      </div>
 
-                    <div className="inputs checkbox_option">
-                        <input type="checkbox" id="cb1"></input>
-                        <label>Li e aceito os termos e condições</label>
+                      <div className="inputs checkbox_option">
+                          <input type="checkbox" id="cb1"></input>
+                          <label>Li e aceito os termos e condições</label>
+                      </div>
+                      <input onClick={req} className="btn" type="submit" value="Register" />
                     </div>
-                    <input onClick={req} className="button" type="submit" value="Register" />
                   </div>
                 </div>
               </div>
             </div>
-          </div>
         </main>
     )
 }

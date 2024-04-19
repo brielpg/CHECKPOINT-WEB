@@ -1,9 +1,9 @@
 header{
+    display: flex;
     width: 100%;
     height: 10vh;
-    background-color: white;
+    background-color: #171717;
     align-items: center;
-    display: flex;
     justify-content: center;
 }
 
@@ -19,9 +19,13 @@ li{
     font-weight: 900;
 }
 
+#ultimo{
+    padding-right: 8vw;
+}
+
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover{
