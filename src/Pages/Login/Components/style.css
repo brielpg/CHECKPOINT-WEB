@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: "Roboto", sans-serif;;
+}
+/*Login*/
+#login-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+}
+
+.form-card { 
+    width: 400px;
+    margin: auto;
+    background-image: linear-gradient(163deg, #02f1db 0%, #0071e8 100%);
+    border-radius: 25px;
+    transition: all .3s;
+  }
+  .form-card-2 {
+    border-radius: 0;
+    transition: all .2s;
+  }
+
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 25px;
+  }
+  .title-login {
+    text-align: center;
+    margin: 2em;
+    color: rgb(2, 229, 223);
+    font-size: 1.2em;
+  }
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: rgb(2, 229, 223); 
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  .input-icon {
+    width: 1.3em;
+    height: 1.3em;
+    color: rgb(253, 253, 253);
+    margin-left: 10px;
+  }
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: rgb(253, 253, 253);
+  }
+  .input-field:hover  { color:rgb(2, 229, 223); }
+  .form .box-btn {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin: 25px 0;
+    padding: 0 5px;
+  }
+  .btn-login {
+    width: 100%;
+    height: 45px;
+    background-image:linear-gradient(150deg, #024075 0%, #00d2d0 100%); 
+    color: #fff;
+    text-decoration:none;
+    padding: 0.4em 1em;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 0.9em;
+    float: left;
+    margin-right: 5%;
+  }
+  .btn-login:hover { background-image: linear-gradient(150deg, #00b8bf 0%, #002646 100%); color:rgb(255, 255, 255); }
+  /*Login*/
